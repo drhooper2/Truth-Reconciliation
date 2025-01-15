@@ -17,7 +17,7 @@ body {
 /* Header */
 .header {
     height: 40vh; /* adjust height as needed */
-    background-image: url('file:///C:/Users/Lenovo/Documents/GitHub/capstone/Images%20-%20Copy/OIP.jpg'); 
+    background-image: url('file:///C:/Users/Lenovo/Documents/GitHub/capstone/Images%20-%20Copy/OIP.jpg');
     background-size: cover; /* Ensures the image covers the header area */
     background-position: center;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body {
 .header p {
     font-size: 36px;
     font-weight: bold;
-    color: black; /* Truth and Reconciliation in Education */
+    color: green; /* Truth and Reconciliation in Education */
 }
  
 /* Main Content */
@@ -108,11 +108,11 @@ section p {
 /* Footer */
 .footer {
     text-align: center;
-    background-color: rgb(248, 231, 202);
+    background-color: red;
     color: black;
     padding: 1rem;
     margin-top: 2rem;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .resized-image {
