@@ -1,0 +1,122 @@
+/* Genereal Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: rgb(239, 235, 226);  
+    padding: 0 1 rem;
+}
+
+/* Header */
+.header {
+    height: 40vh; /* adjust height as needed */
+    background-image: url('file:///C:/Users/Lenovo/Documents/GitHub/capstone/Images%20-%20Copy/OIP.jpg');
+    background-size: cover; /* Ensures the image covers the header area */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
+    text-align: center;
+    color: black; /* Truth and Reconciliation */
+    padding: 0rem;
+    flex-direction: column; /*makes the two headings stack on top of each other, not side by side */
+}
+
+.header h1 {
+    margin-bottom: 8px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.header p {
+    font-size: 36px;
+    font-weight: bold;
+    color: green; /* Truth and Reconciliation in Education */
+}
+ 
+/* Main Content */
+.content {
+    max-width: 1200px;
+    margin: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+section h2{
+    margin-bottom: 0.5rem;
+    color: black; /* Section Heading Color */
+    text-decoration: underline;
+    
+}
+
+section p {
+    color: black; /* paragraph color */
+}
+
+/* Texxt and Image Section */
+.text-image-section {
+    display: flex; /* flexbox layout for side-by-side alignment */
+    align-items: center; /* Vertically centers text and image */ 
+    justify-content: space-between; /* Creates space between the text and image */
+    max-width: 1200; 
+    margin: 2rem auto; /* centers the section on the page */
+    gap: 2rem; /* Adds space between text and image */
+}
+
+.text-content {
+    flex: 3; /* Allows the text to take up 60% of the space */
+}
+
+.text-content h2 {
+    margin-bottom: 1rem;
+    font-size: 24px;
+    color: black;
+}
+
+.text-content p {
+    font-size: 1rem;
+    color: black;
+}
+
+.image-content {
+    flex: 1; /* Allows the image to take up equal or more space */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+}
+
+.image-content img {
+    max-width: 100%; /* Ensures the image scales down if too large */
+    width: 300px; /* this is how much space the image is set to take */
+    height: auto; /* Keeps the image proportional */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    margin-top: 30%; /* Adjust this value to move the image down */
+}
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: red;
+    color: black;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+.resized-image {
+    width: 500px; /* sets the desired width */
+    height: auto; /* maintains the aspect ratio */
+}
+/*background-color: rgb(239, 235, 226); */
